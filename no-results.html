@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="js/modernizr.custom.js"></script>
+    <title>Big Sam's Kitchen</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul id="gn-menu" class="gn-menu-main" style="
+        z-index: 10;">
+            <li class="gn-trigger">
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper">
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                                <li><a class="ok" href="menu.html"><i class="fas fa-book-open"></i> &#160;&#160;&#160;&#160;&#160;&#160;On the Menu</a></li>
+                                <li><a class="ok" href="help.html"><i class="fas fa-question-circle"></i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Help</a></li>
+                                <li><a class="ok" href="no-results.html"><i class="fas fa-times"></i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;No results page</a></li>
+                                <li><a class="ok" href="https://phidelele.herokuapp.com/" target="_blank"><i class="fas fa-male"></i> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Who made this page?</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </li>
+            <li><a href="index.html">Big Sam's Kitchen</a></li>
+        </ul>
+        <div class="welcome">
+            <div class="inside">
+                <h1> Welcome</h1>
+                <p>Let's help you find what you're looking for</p>
+                <!-- <div class="start">
+                            <p>Get Started</p>
+                    </div> -->
+                <!--
+                <div class="search">
+                    <input class="search-input" type="text" name="" placeholder="&#160;&#160;search">
+                    <a class="button" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+-->
+
+                <div class="srch-ctnr">
+                    <input id="searchBar" class="searchbar" type="text" placeholder="Search...">
+                    <a id="btnSearch" class="btn-search"><i class="fa fa-search"></i></a>
+                </div>
+                    <div class="fltr-box">
+                            <label class="fltr">Hot
+                                <input type="checkbox" checked="checked">
+                                <span class="fltr-btn"></span>
+                            </label>
+                                              
+                            <label class="fltr">Spicy
+                                <input type="checkbox">
+                                <span class="fltr-btn"></span>
+                            </label>
+                                              
+                            <label class="fltr">Sweet
+                                <input type="checkbox">
+                                <span class="fltr-btn"></span>
+                            </label>
+                                              
+                            <label class="fltr">Vegan
+                                <input type="checkbox">
+                                <span class="fltr-btn"></span>
+                            </label>
+                        </div>
+                
+                <!-- <div class="centered">
+                        <h1>Explore our recipes today!</h1> -->
+
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="food-wrapper">
+                <h1 style="color:black;"> Oops! It seems we do not have that recipe available here. </h1>
+                <p> Please try searching for another recipe, we have a lot of other options that may still interest you. </p>
+        </div>
+
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div class="address"> Accra Financial Centre,<br> 37 Independence Ave,<br> Accra, Ghana <br> <br>bigsamskitchen@gmail.com <br> +233 269447924 </div>
+                <div class="social-media" style="text-align: center;">
+                    <div class="social">
+                        Follow Us
+                        <br>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <p>&copy Big Sam's Kitchen, LLC 2019</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /container -->
+    <script src="js/classie.js "></script>
+    <script src="js/gnmenu.js "></script>
+    <script>
+        new gnMenu(document.getElementById('gn-menu'));
+    </script>
+</body>
+
+</html>

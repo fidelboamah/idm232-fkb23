@@ -1,0 +1,1117 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+    font-family: 'codropsicons';
+    src: url('../fonts/codropsicons/codropsicons.eot');
+    src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,
+html {
+    background: #fff;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img#food {
+    z-index: 1;
+    width: 100%;
+}
+
+button {
+    width: 90px;
+    background: olivedrab;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    padding: 6px 9px;
+}
+
+/* header{
+    z-index: 5;
+} */
+
+.welcome {
+    background-image: url(../img/nbck.jpg);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    /* padding: 3rem; */
+    color: black;
+    text-align: center;
+    width: 100vw;
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+}
+
+
+
+.inside {
+    max-width: 280px;
+    margin: 0 auto;
+    padding-top: 13%;
+}
+
+.welcome h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.search {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* height: 65px; */
+    border-radius: 40px;
+    padding-top: 20px;
+    width: 100%;
+    /* text-align: center; */
+    display: inline-block;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: #ffffff;
+    float: left;
+    padding: 0;
+    /* color: white; */
+    font-size: 16px;
+    transition: 0.4s all;
+    line-height: 40px;
+    width: 225px;
+    border-radius: 24px;
+}
+
+.button {
+    color: white;
+    float: right;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: olivedrab;
+}
+
+.content-wrapper {
+    color: white;
+    padding: 40px 0;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.food-wrapper {
+    padding: 40px 0;
+    max-width: 90%;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.footer {
+    background-color: #2b2b2b;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+
+/* #comp img{
+    width: 100%;
+}
+
+#comp {
+    grid-area: comp;
+} */
+
+/* Arranging the home screen so that the text and images switch place based on screen size
+   
+   Resizing the font-size of text within the wrapper
+*/
+
+
+
+div.social {
+    margin: 0 auto;
+}
+
+div.socialmedia,
+h3,
+p {
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+div.exp p,
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+
+div.dnt-wait {
+    background: olive;
+    padding: 10% 0%;
+}
+
+div.dnt-wait p {
+    font-size: 1rem;
+    padding: 0px 10% 30px 10%;
+}
+
+
+div.dnt-wait p,
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+p#dnt-btn {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+div.comp {
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+div.recipe {
+    padding: 2rem 0;
+    margin: 0 auto;
+    max-width: 90%;
+    /* width: 50%;
+  height: 50%; */
+    /* background: rgba(255, 213, 70, 0.4);
+  border: 2px dashed rgba(236, 198, 48, 0.5); */
+}
+
+div.recipe img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.comp img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a.ok {
+    padding-left: 1rem;
+}
+
+.PIC {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8pt;
+}
+
+div.explore-btn {
+    border: #ffffff;
+    background-color: olivedrab;
+    border-radius: 35px;
+    width: 12rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1px;
+    font-size: 1.025rem;
+}
+
+div.explore-btn:hover {
+    border: #ffffff;
+    background-color: orange;
+    border-radius: 35px;
+    width: 12rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1px;
+    font-size: 1.025rem;
+}
+
+div.footer-wrapper {
+    max-width: 75%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 1.2rem;
+}
+
+/* Home
+   Menu
+
+- Media Query for buttons
+
+- This resizes the button and the h1 text above it
+
+*/
+@media only screen and (min-width:320px) {
+
+    button {
+        top: 16px;
+        left: 20px;
+        position: relative;
+    }
+    /* div.food {
+        padding: 10%;
+    } */
+
+    div.card {
+        margin-bottom: 40px;
+    }
+    div.fltr-box {
+        padding-top: 3rem;
+        display: block;
+    }
+
+    div.recipe-wrapper{
+        background: #f7f7f7;
+    }
+
+    div#meal-desc h1 {
+        margin: 0;
+        text-align: left;
+        padding: 0.5rem 0;
+        color: #1a1a1a;
+    }
+
+    div.details {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.5rem 0;
+        color: #656565;
+    }
+
+    div.details p {
+        padding: 0 0.5rem;
+        /* text-align: center;
+        font-family: 'Lato', Arial, sans-serif; */
+        margin: 0;
+    }
+
+    p#m-desc {
+        margin: 0;
+        text-align: left;
+        line-height: 24px;
+    }
+
+    div.ingredients{
+        background: olivedrab;
+        color: white;
+        padding: 2rem 0;
+    }
+
+    div.ingredients h1{
+        margin: 0;
+        text-align: left;
+        padding: 0.5rem 0;
+        color: white;
+        padding-left: 20px;
+    }
+
+    div.ingredients img{
+        width: 100%;
+        padding: 30px;
+        border-radius: 47px;
+    }
+
+    div.ingredients li {
+        padding-bottom: 5px;
+        padding-left: 40px;
+    }
+
+    div.process{
+        padding: 2rem 0;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    div#process-title h1 {
+        margin: 0 auto;
+        text-align: left;
+        color: #252525;
+        padding-left: 30px;
+        padding-top: 23px;
+    }
+
+    div.process h1{
+        text-align: left;
+        color: #1a1a1a;
+        padding-bottom: 1rem;
+    }
+
+    div.steps {
+        font-weight: 500;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e4e6eb;
+    }
+
+    div.steps span.step-num{
+        background-color: olive;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+        padding: 3px 9px;
+        width: 9px;
+        margin-right: 10px;
+    }
+
+    p.instructions {
+        text-align: left;
+        padding-bottom: 3rem;
+        line-height: 24px;
+    }
+
+    div.img-4-pro img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:420px) {
+    /*    resizing the Welcome font on the home page   */
+
+    div.centered h1 {
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    div.content-wrapper {
+        font-size: 1rem;
+    }
+
+    div.fltr-box {
+        padding: 3rem 0;
+        display: block;
+    }
+
+    /* div.food {
+        padding: 10%;
+    } */
+}
+
+
+@media only screen and (min-width:768px) {
+
+    button {
+        top: 40px;
+        left: 44px;
+        position: relative;
+    }
+
+    div.explore-btn {
+        border: #ffffff;
+        background-color: olivedrab;
+        border-radius: 35px;
+        width: 20rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1px;
+        font-size: 1.3rem;
+        font-family: 'Lato';
+    }
+
+    div.explore-btn:hover {
+        border: #ffffff;
+        background-color: orangered;
+        border-radius: 35px;
+        width: 20rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1px;
+        font-size: 1.3rem;
+        font-family: 'Lato';
+    }
+
+    div.centered h1 {
+        padding-bottom: 1rem;
+        font-size: 3.5rem;
+        color: white;
+    }
+
+    div.content-wrapper {
+        font-size: 1.75rem;
+    }
+
+    /*  Menu media queries  */
+
+    div.food {
+        /* display: grid;
+        grid-template-columns: 260px 260px 260px;
+        grid-gap: 20px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: ' a b' 'c d' 'e f'; */
+        /* justify-items: center;
+        align-items: center;
+        display: grid;
+        border: 2px dashed rgba(114, 186, 94, 0.35);
+        height: 250px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        background: rgba(114, 186, 94, 0.05); */
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-column-gap: 40px;
+        /* border: 2px dashed rgba(114, 186, 94, 0.35); */
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 40px;
+        /* grid-template-areas: 'filter card card'; */
+        grid-template-rows: auto;
+        padding: 0;
+        /* background: rgba(114, 186, 94, 0.05); */
+    }
+
+    /* .food-wrapper {
+        max-width: 75%;
+    } */
+
+    div.content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: ' a b''c d''e f';
+        grid-row-gap: 3rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    /*    div.food {*/
+    /* display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ' a b' 'c d' 'e f'; */
+    /* justify-items: center;
+    align-items: center;
+    display: grid;
+    border: 2px dashed rgba(114, 186, 94, 0.35);
+    height: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background: rgba(114, 186, 94, 0.05); */
+    /*
+        justify-items: center;
+        align-items: center;
+        display: grid;
+*/
+    /* border: 2px dashed rgba(114, 186, 94, 0.35); */
+    /*
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+*/
+    /* background: rgba(114, 186, 94, 0.05); */
+    /*    }*/
+
+    /* .food-wrapper{
+    max-width: 60%;
+} */
+    div#a {
+        grid-area: b;
+    }
+
+    div#e {
+        grid-area: f;
+    }
+
+    div.dnt-wait h1 {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    div.dnt-wait p {
+        font-size: 1.5rem;
+        padding: 0px 10% 30px 10%;
+    }
+
+    p#dnt-btn {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    div.fltr-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.recipe {
+        padding: 2rem 0;
+        margin: 0 auto;
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-column-gap: 36px;
+        grid-template-areas: 'desc pic';
+    }
+
+    div.meal-pic {
+        grid-area: pic;
+    }
+
+    div.meal-desc {
+        grid-area: desc;
+    }
+    div.ing-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+    div.ingredients{
+
+    }
+
+    div.ingredients h1 {
+        margin: 0;
+        text-align: left;
+        padding: 0.5rem 0;
+        color: white;
+        padding-left: 50px;
+    }
+
+    div.ind-ing{
+        margin: 0 auto;
+    padding-right: 80px;
+    }
+
+    div#process-title h1 {
+        color: black;
+        padding-left: 50px;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    div.process {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3rem;
+        padding: 2rem 0;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .inside {
+        max-width: 388px;
+        margin: 0 auto;
+        padding-top: 13%;
+
+    }
+
+}
+
+@media only screen and (min-width:960px) {
+
+    button {
+        top: 70px;
+        left: 150px;
+        position: relative;
+    }
+
+    div.explore-btn {
+        border: #ffffff;
+        background-color: olivedrab;
+        border-radius: 35px;
+        width: 20rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1px;
+        font-size: 1.3rem;
+        font-family: 'Lato';
+    }
+
+    div.explore-btn:hover {
+        border: #ffffff;
+        background-color: orangered;
+        border-radius: 35px;
+        width: 20rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1px;
+        font-size: 1.3rem;
+        font-family: 'Lato';
+    }
+
+    div.centered h1 {
+        padding-bottom: 1rem;
+        font-size: 5rem;
+        color: white;
+    }
+
+    div.content-wrapper {
+        font-size: 1.75rem;
+    }
+
+    div.content {
+        padding: 5rem 0;
+    }
+
+    div.dnt-wait h1 {
+        font-size: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    p#dnt-btn {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    div.footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "address address social";
+        max-width: 75%;
+        color: white;
+        margin: 0 auto;
+        text-align: left;
+        padding: 8rem 0;
+        font-size: 1.5rem;
+    }
+
+    div.food {
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    div.fltr-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.recipe{
+        padding: 6rem 3rem;
+        max-width: 80%;
+    }
+
+    div.ingredients {
+        margin: 0 auto;
+        max-width: 72%;
+        border-radius: 31px;
+        padding: 3.25%;
+    }
+
+    div.ing-inner {
+        grid-column-gap: 20px;
+    }
+
+    div.ingredients h1 {
+        font-size: 24pt;
+    }
+
+    div.ingredients li {
+        font-size: 14pt;
+    }
+
+    div#meal-desc h1 {
+        font-size: 22pt;
+    }
+
+    p#m-desc {
+        line-height: 32px;
+        font-size: 14pt;
+    }
+
+    div#process-title {
+        margin: 0 auto;
+        max-width: 67%;
+    }
+
+    div#process-title h1 {
+        font-size: 32pt;
+        padding-left: 0;
+    }
+
+    div.process {
+        margin: 0 auto;
+        max-width: 67%;
+    }
+
+    div.img-4-pro img{
+        width:100%;
+    }
+
+    p.instructions {
+        line-height: 30px;
+        font-size: 14pt;
+    }
+
+    div.steps span.step-num {
+        font-size: 22pt;
+    }
+
+    div.steps span.step-title {
+        font-size: 18pt;
+    }
+
+    .inside {
+        max-width: 388px;
+        margin: 0 auto;
+        padding-top: 13%;
+    }
+
+}
+
+@media only screen and (min-width: 1150px) {
+    div.food {
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-column-gap: 0px;
+        grid-row-gap: 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        width: 1110px;
+        margin: 40px auto;
+    }
+
+    .inside {
+        max-width: 388px;
+        margin: 0 auto;
+        padding-top: 8%;
+    }
+
+} 
+
+.container > header,
+.codrops-top {
+    color: #fff;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.container > header {
+    margin: 0 auto;
+    padding: 12em 2em;
+    /* padding-left: 370px; */
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.container > header a {
+    color: #566473;
+    text-decoration: none;
+    outline: none;
+}
+
+.container > header a:hover {
+    color: #4f7bab;
+}
+
+.container > header h1 {
+    font-size: 1em;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container > header span {
+    display: block;
+    font-size: 55%;
+    color: #74818e;
+    padding: 0 0 0.6em 0.1em;
+}
+
+
+/* To Navigation Style */
+
+.codrops-top {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 0.69em;
+    line-height: 2.2;
+}
+
+.codrops-top a {
+    text-decoration: none;
+    padding: 0 1em;
+    letter-spacing: 0.1em;
+    color: #888;
+    display: inline-block;
+}
+
+.codrops-top a:hover {
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+}
+
+.codrops-top span.right {
+    float: right;
+}
+
+.codrops-top span.right a {
+    float: left;
+    display: block;
+}
+
+.codrops-icon:before {
+    font-family: 'codropsicons';
+    margin: 0 4px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+    content: "\e001";
+}
+
+.codrops-icon-prev:before {
+    content: "\e004";
+}
+
+
+/* Demo Buttons Style */
+
+.codrops-demos {
+    padding-top: 1em;
+    font-size: 0.9em;
+}
+
+.codrops-demos a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.7em 1.1em;
+    border: 3px solid #b1aea6;
+    color: #b1aea6;
+    font-weight: 700;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+    border-color: #89867e;
+    color: #89867e;
+}
+
+@media screen and (max-width: 1025px) {
+    .container > header {
+        margin: 0 auto;
+        padding: 120px 50px;
+        font-size: 70%;
+        text-align: right;
+    }
+
+    /* .wrapper{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    div.content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 'comp exp';
+    } */
+}
+
+@media screen and (max-width: 740px) {
+    .codrops-icon span {
+        display: none;
+    }
+}
+
+body {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato";
+}
+
+.srch-ctnr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.searchbar {
+    width: 100%;
+    padding: 10px 24px;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    box-shadow: -1px 1px 20px 0px #4e4e4e;
+}
+
+.searchbar::placeholder {
+    color: color(#ffffff a(0.8));
+}
+
+.searchbar:focus {
+    width: 400px;
+        font-family: "Lato";
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: whitesmoke;
+    color: #575756;
+    /* Stops the input box from inheriting the styling from the inputs on the request form */
+    border-bottom: white solid 2px;
+    outline: none;
+}
+
+.btn-search {
+    cursor: pointer;
+    color: white;
+    text-decoration: none !important;
+        font-family: "Lato";
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+
+
+/* card */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.card:hover {
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    transform: scale(1.05);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card-ctnr {
+  padding: 2px 16px;
+}
+
+.title {
+    color: white;
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.desc {
+    color: black;
+    font-family: 'Lato', 'Arial', sans-serif;
+    padding-bottom: 1.5rem;
+}
+
+/* Radio Buttons */
+/* Customize label */
+.fltr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 10px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .fltr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .fltr-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .fltr:hover input ~ .fltr-btn {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .fltr input:checked ~ .fltr-btn {
+    background-color: orange;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .fltr-btn:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .fltr input:checked ~ .fltr-btn:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .fltr .fltr-btn:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .d {
+      color: olivedrab;
+  }
