@@ -8,7 +8,7 @@
     //   $query .= "FROM `bigsams` ";
     //   $query .= "ORDER BY id ASC";
 
-      $query = "SELECT * FROM `bigsams` ORDER BY id ASC";
+      $query = "SELECT * FROM `recipe` ORDER BY id ASC";
 
       $result = mysqli_query($connection, $query);
 
@@ -135,7 +135,7 @@ img {
 
         <div class="food-wrapper">
             <div class="food">
-              
+
                 <?php 
                 While ($recipe =  mysqli_fetch_assoc($result)) {
                     ?>
@@ -143,13 +143,15 @@ img {
                 <div class="card">
                 <a href="recipe.php?id=<?php echo urlencode($recipe["id"]);?>">
                     <div class="images">
-                      <img src="<?php echo $recipe["foodimage"]?>"/>
+                      <img src="images/<?php echo $recipe["folder"]?>/<?php echo $recipe["image"]?>" alt="meal image" />
                     </div>
                     <div class="product" style="padding: 20px;">
                       
                       <h1 style="text-align: left; color: black;";><?php echo $recipe["title"]?></h1>
-                      <h2 style="text-align: left; margin: 10px 0; font-size: 1rem; color: gray;">Spicy <i class="fas fa-pepper-hot"></i></h2>
-                      <p class="desc" style="text-align: left;"><?php echo $recipe["para"]?></p>
+                      <h2 style="text-align: left; margin: 10px 0; font-size: 1rem; color: gray;"><?php echo $recipe["category"]?></h2>
+                      <p class="desc" style="text-align: left;">
+                        <?php echo substr("$recipe[description]"."..." ,0,120);?>
+                      </p>
                       <button class="add" style="top:0; left:0; position:relative;">Read more</button>
                   </div>
                   </a>
