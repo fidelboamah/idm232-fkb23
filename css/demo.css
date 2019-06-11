@@ -15,8 +15,29 @@ html {
     font-size: 1rem;
 }
 
+div.rd
+{background: olivedrab;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    padding-top: 2px;
+    padding: 3px;}
+
 a {
     text-decoration: none;
+}
+
+div.kofi {
+    background: #1a1a1a;
+    color: white;
+    width: 50%;
+}
+
+div.footer-space{
+    background: #1a1a1a;
+    color: white;
 }
 
 img#food {
@@ -24,14 +45,14 @@ img#food {
     width: 100%;
 }
 
-button {
+/* .add {
     width: 90px;
     background: olivedrab;
     border-radius: 13px;
     border: none;
     color: white;
     padding: 6px 9px;
-}
+} */
 
 /* header{
     z-index: 5;
@@ -92,7 +113,7 @@ button {
     border-radius: 24px;
 }
 
-.button {
+/* .add {
     color: white;
     float: right;
     text-decoration: none;
@@ -102,7 +123,7 @@ button {
     text-align: center;
     border-radius: 50%;
     background: olivedrab;
-}
+} */
 
 .content-wrapper {
     color: white;
@@ -260,21 +281,27 @@ div.footer-wrapper {
     font-size: 1.2rem;
 }
 
+#m-sides {
+    color: grey !important;
+    margin: 0 auto !important;
+    text-align: left !important;
+}
+
 /* Home
    Menu
 
 - Media Query for buttons
 
-- This resizes the button and the h1 text above it
+- This resizes the .add and the h1 text above it
 
 */
 @media only screen and (min-width:320px) {
 
-    button {
+    /* .add {
         top: 16px;
         left: 20px;
         position: relative;
-    }
+    } */
     /* div.food {
         padding: 10%;
     } */
@@ -319,8 +346,8 @@ div.footer-wrapper {
     }
 
     div.ingredients{
-        background: olivedrab;
-        color: white;
+        background: none;
+        color: black;
         padding: 2rem 0;
     }
 
@@ -328,7 +355,7 @@ div.footer-wrapper {
         margin: 0;
         text-align: left;
         padding: 0.5rem 0;
-        color: white;
+        color: black;
         padding-left: 20px;
     }
 
@@ -341,6 +368,8 @@ div.footer-wrapper {
     div.ingredients li {
         padding-bottom: 5px;
         padding-left: 40px;
+        list-style-type: none;
+        color: #5c5c5c;
     }
 
     div.process{
@@ -418,11 +447,11 @@ div.footer-wrapper {
 
 @media only screen and (min-width:768px) {
 
-    button {
+    /* .add {
         top: 40px;
         left: 44px;
         position: relative;
-    }
+    } */
 
     div.explore-btn {
         border: #ffffff;
@@ -582,15 +611,15 @@ div.footer-wrapper {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
-    div.ingredients{
+    /* div.ingredients{
 
-    }
+    } */
 
     div.ingredients h1 {
         margin: 0;
         text-align: left;
         padding: 0.5rem 0;
-        color: white;
+        color: black;
         padding-left: 50px;
     }
 
@@ -626,11 +655,11 @@ div.footer-wrapper {
 
 @media only screen and (min-width:960px) {
 
-    button {
+    /* .add {
         top: 70px;
         left: 150px;
         position: relative;
-    }
+    } */
 
     div.explore-btn {
         border: #ffffff;
@@ -730,6 +759,7 @@ div.footer-wrapper {
 
     div.ingredients li {
         font-size: 14pt;
+        list-style-type: none;
     }
 
     div#meal-desc h1 {
@@ -1060,7 +1090,7 @@ img {
     padding-right: 10px;
   }
   
-  /* Hide the browser's default radio button */
+  /* Hide the browser's default radio .add */
   .fltr input {
     position: absolute;
     opacity: 0;
@@ -1069,7 +1099,7 @@ img {
     width: 0;
   }
   
-  /* Create a custom radio button */
+  /* Create a custom radio .add */
   .fltr-btn {
     position: absolute;
     top: 0;
@@ -1085,7 +1115,7 @@ img {
     background-color: #ccc;
   }
   
-  /* When the radio button is checked, add a blue background */
+  /* When the radio .add is checked, add a blue background */
   .fltr input:checked ~ .fltr-btn {
     background-color: orange;
   }

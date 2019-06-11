@@ -29,19 +29,19 @@ $eye_dee = isset($_GET['id']) ? $_GET['id'] : null;
 
 If (!eye_dee) {
 	redirect_to(“index.php”);
-} else { echo ("hahahaha");
+} else { echo ("");
 
 $query = "SELECT * FROM `recipe` WHERE id={$eye_dee} LIMIT 1";
 
 $result = mysqli_query($connection, $query);
 }
 
-echo ("in a bit");
+echo ("");
 
 if (!$result) {
     die("Database query failed.");
   }
-  else echo ("kojo");
+  else echo ("");
 
 ?>
         <div class="recipe-wrapper">
