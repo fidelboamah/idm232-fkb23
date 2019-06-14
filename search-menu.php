@@ -95,8 +95,28 @@ img {
 
 <body>
 
-        <div class="s003" id="size">
-      <form action="search-menu.php">
+
+
+    <div class="s003" id="size">
+
+    <h1>Search from 40 easy to cook meals</h1>
+
+      <form action="search-menu.php" method=:get">
+        <div class="input-select">
+      <select data-trigger="" name="look" onchange="this.form.submit()">
+        <option value disabled selected>Category</option>
+        <option value="Chicken">Chicken</option>
+        <option value="Beef">Beef</option>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Dinner">Dinner</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Snack">Snack</option>
+        <option value="Spicy">Spicy</option>
+      </select>
+  </div>
+</form>
+
+<form action="search-menu.php">
         <div class="inner-form">
           <div class="input-field second-wrap">
             <input id="search" type="text" placeholder="Search..." name="look" value="<?php echo $_GET['look'];?>"/>
@@ -110,22 +130,18 @@ img {
           </div>
         </div>
       </form>
-
-        <div class="input-select">
-            <form action="search-menu.php" method=get">
-                <select data-trigger="" name="look" onchange="this.form.submit()">
-                <option value disabled selected>Category</option>
-                <option value="Chicken">Chicken</option>
-                <option value="Beef">Beef</option>
-                <option value="Breakfast">Breakfast</option>
-                <option value="Dinner">Dinner</option>
-                <option value="Lunch">Lunch</option>
-                <option value="Snack">Snack</option>
-                <option value="Spicy">Spicy</option>
-                </select>
-            </form>
-        </div>
     </div>
+
+    <script src="js/extention/choices.js"></script>
+    <script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
+
 
 
         <div class="food-wrapper">
@@ -163,36 +179,19 @@ mysqli_free_result($result);
             </div>
 
     <?php
-    if ($i==0)
-    {
+        if ($i==0)
+        {
     ?>
-    <div class="error-result">
-        <h1 style="color:black;"> Oops! It seems we do not have that recipe available here. </h1>
-        <p> Please try searching for another recipe, we have a lot of other options that may still interest you. </p>
-    </div>
-    <?php
-    }
-    ?>
-
-<!-- <div class="pages">
-            <ul class="pagination">
-  <li><a href="#">«</a></li>
-  <li><a href="#">1</a></li>
-  <li><a class="active" href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
-  <li><a href="#">6</a></li>
-  <li><a href="#">7</a></li>
-  <li><a href="#">»</a></li>
-</ul>
-</div> -->
-
-
-
-
-
+        <div class="error-result">
+            <h1 style="color:black;"> Oops! It seems we do not have that recipe available here. </h1>
+            <p> Please try searching for another recipe, we have a lot of other options that may still interest you. </p>
         </div>
+                 
+    <?php
+        }
+    ?>
+
+
 
         <div class="pages">
     <ul class="pagination">
@@ -261,6 +260,7 @@ mysqli_free_result($result);
     </ul>
 </div>
 
+                    </div>
     <?php 
         include("includes/footer.php"); 
     ?>

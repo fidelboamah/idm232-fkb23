@@ -1,25 +1,15 @@
-div.pages{
-    margin: 0 auto;
-    // background: yellow;
-    margin-left: 40%;
-}
+
 
 @media only screen and (min-width:375px) {
-    div.pages{
-        margin-left: 5%;
-    }
+
 }
 
 @media only screen and (min-width:768px) {
-    div.pages{
-        margin-left: 25%;
-    }
+
 }
 
 @media only screen and (min-width:1150px) {
-    div.pages{
-        margin-left: 32%;
-    }
+
 }
 
 ul.pagination {

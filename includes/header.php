@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/pagination.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
@@ -24,10 +25,13 @@
                         <ul class="gn-menu">
                             <li><a class="ok" href="search-menu.php"><i class="fas fa-book-open"></i> &#160;&#160;&#160;&#160;&#160;&#160;On the Menu</a></li>
                             <li><a class="ok" href="help.html"><i class="fas fa-question-circle"></i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Help</a></li>
-                            <li><a class="ok" href="https://phidelele.herokuapp.com/" target="_blank"><i class="fas fa-male"></i> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Who made this page?</a></li>
+                            <li><a class="ok" href="case_study.html"><i class="fas fa-pen-square"></i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Case Study</a></li>
+                            <li><a class="ok" href="https://phidelele.herokuapp.com/" target="_blank"><i class="fas fa-male"></i> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Who made this page?</a></li>
                         </ul>
                     </div>
                 </nav>
             </li>
             <li><a href="index.php">Big Sam's Kitchen</a></li>
         </ul>
+
+        

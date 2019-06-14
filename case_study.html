@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/basic.css">
+    </head>
+    <body>
+<article>
+    
+<figure>
+    <img src="img/Screen%20Shot%202019-06-14%20at%203.02.14%20AM.png">
+</figure>
+    
+<h1>Overview</h1>
+<p>The IDM232 class required us to develop a food recipe website using the php scripting language and a MySQL database to retrieve data from. The first 4-5 weeks involved us learning about the scripting language and the remainder was used to develop the web application. Our task was very demanding and required much effort. In the end, I was able to collaborate with some peers for some aspects of the project and worked on other parts alone.</p>
+<blockquote>
+  <p>php and MySQL were two very foreign concepts that were being introduced in class and so it took a while for me to get a good grip on it.</p>
+</blockquote>
+<!--
+<figure>
+    <img src="img/Screen%20Shot%202019-06-14%20at%203.02.14%20AM.png">
+</figure>
+-->
+
+<p>The main challenges I faced for this project were understanding the scripting language and optimizing the database in a smart and efficient manner. I underestimated this in the first half of the term but quickly addressed it in the latter half.</p>
+
+<h1>Context/Challenge</h1>
+
+<p>The IDM 232 project is the second scripting class after javascript. It focuses on using PHP and a MySQL database to develop a web application that loads about 40 recipes on a screen. The challenge with this assignment is dynamically recalling data onto a web page, instead of building pages for each of the recipes. Our professor gave us the information for all the recipes in the form of with JPGs, PNGs, and PDFs. The task was to organize all the information given into a database and using php to pull information from that database.</p>
+
+<blockquote>
+    <p>This taught me a lot about coding and how it gets very similar regardless of the difference in language. Once the logic is there, the only barrier is understanding the syntax.</p>
+</blockquote>
+
+<h1>Building the App</h1>
+
+<h3 style="font-family: Lucida Grande";>Design</h3>
+<p>I began my work by developing wireframes for the site. I wanted to focus on minimalism and let the pictures which tend to be very colorful and busy, stand out without there being too much on the screen. I adopted the card style of presenting results.  Here some polished images of the web app and the cards:</p>
+    
+<figure>
+    <img src="img/case-01.jpg" style="
+    width: 42%;
+    margin: 0 auto;
+    padding-left: 28%;
+
+">
+</figure>
+    
+<figure>
+    <img src="img/case-02.jpg" style="
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 20%;
+">
+</figure>
+    
+<br> <br>
+
+  
+<h3 style="font-family: Lucida Grande";>HTML & CSS Development </h3>
+<p>From there, I developed my HTML and CSS to create the vision of the site that I had in mind. I got some help from some templates and tutorials like w3schools, in developing these. Once I finished my html and css, I began to re write it with php.</p>
+
+<h3 style="font-family: Lucida Grande";>PHP: Loops and function</h3>
+<p>I set up my database connection and placed those along with the header (which contains the navbar) and the footer into include files for ease of manipulation.
+
+    <br><br>
+
+Once I had my includes set and a database connection. I began to set up a loop that repopulated my page with information from the database. The next step was to make sure my search was working and then I finished with pagination that limited the number of results on a page to 9 recipes.</p>
+    
+    <figure>
+    <img src="img/Screen%20Shot%202019-06-14%20at%203.02.30%20AM-min.png" style="
+    width: 20%;
+    margin: 0 auto;
+    padding-left: 36%;
+">
+</figure>
+    
+    
+
+<h1>Final touches</h1>
+
+<p>The remainder of my time was spent cleaning up the code: taking out unneccesary divs and deleting commented out sections of code. I also went ahead to format the code (taking advantage of whitespace) and including comments to further explain what is happening in the code.</p>
+    
+
+<h1>Conclusion</h1>
+    
+<figure>
+    <img src="img/Screen%20Shot%202019-06-14%20at%203.18.09%20AM.png" style="
+    width: 42%;
+    margin: 0 auto;
+    padding-left: 28%; ">
+</figure>
+
+<p>The main take aways I got from this assignment was to start early, cracking under pressure is very likely when you underestimate your responsibilty. And I also learnt that coding is not as daunting as it seems. Once you develop an understanding of how computers process code, its easier to overcome the fear. The main challenge is syntax. I am happy with the results of my application. I do believe it could be further improved but based on my current skill level and progress, I think I did a good job.</p>
+
+<a href="search-menu.php" style="text-decoration: none; color: white; padding: 4rem;">
+  <div class="explore-btn" style="border: #ffffff;
+  background-color: olivedrab;
+  border-radius: 35px;
+  width: 20rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px;
+  font-size: 1.3rem;
+  font-family: 'Lato';">
+      <p id="dnt-btn">Back to site</p>
+  </div>
+  </a>
+
+        </article>
+    </body>
+</html>

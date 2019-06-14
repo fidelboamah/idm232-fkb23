@@ -810,35 +810,27 @@ legend {
   box-sizing: border-box;
 }
 
-.error-result{
-  padding: 40px 0;
-  padding-bottom: 12rem;
-}
-
-#size {
-  height: 50vh;
-  background-image: url(../img/nbck.jpg);
-}
-
 .s003 {
-  height: 50vh;
+  min-height: 50vh;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   font-family: 'Lato', sans-serif;
-  background-image: url(../img/nbck.jpg);
+  background-color: #393e27;
   background-size: cover;
   background-position: center center;
-  padding: 15px;
+  padding: 3rem;
+  padding-top: 6rem;
 }
 
-.s003 form {s
+.s003 form {
   width: 100%;
-  max-width: 790px;
-  margin-bottom: 0;
+  max-width: 700px;
+  /* margin-bottom: 0; */
+  margin: 0 auto;
 }
 
 .s003 form .inner-form {
@@ -851,7 +843,7 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 50px;
+  border-radius: 3px;
 }
 
 .s003 form .inner-form .input-field {
@@ -980,9 +972,8 @@ legend {
   color: #fff;
   border: 0;
   cursor: pointer;
-  background: olivedrab;
+  background: #63c76a;
   transition: all .2s ease-out, color .2s ease-out;
-  border-radius: 50px;
 }
 
 .s003 form .inner-form .input-field.third-wrap .btn-search svg {
